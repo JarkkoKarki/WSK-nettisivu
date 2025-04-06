@@ -44,26 +44,25 @@ body {
   pointer-events: none;
 }
 
-/* Hero Content */
 .hero-content {
   position: relative;
-  z-index: 2; /* Ensure content is above the map and overlay */
-  color: #fff; /* Ensure bright white text */
+  z-index: 2;
+  color: #fff;
   text-align: center;
 }
 
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 60px;
-  color: #ffffff; /* Bright white text */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
   font-size: 1.5rem;
   margin-bottom: 2em;
-  color: #ffffff; /* Bright white text */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .btn-primary {
@@ -82,16 +81,15 @@ body {
 .btn-primary:hover {
   background-color: #e65a50;
 }
-/* Navigation Bar */
-/* Navigation Bar */
+
 .navbar {
   display: flex;
-  justify-content: space-between; /* Space between center and right sections */
-  align-items: center; /* Vertically align items in the middle */
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
-  position: relative; /* Ensure proper positioning */
+  position: relative;
 }
 
 .navbar ul {
@@ -116,21 +114,19 @@ body {
   color: #ff6f61;
 }
 
-/* Center the center-nav */
 .center-nav {
-  position: absolute; /* Position it absolutely within the navbar */
-  left: 50%; /* Move it to the center horizontally */
-  transform: translateX(-50%); /* Adjust for the width of the content */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: center; /* Center the items horizontally */
-  gap: 15px; /* Add spacing between items */
+  justify-content: center;
+  gap: 15px;
 }
 
-/* Align the right-nav items to the right */
 .right-nav {
-  margin-left: auto; /* Push the right-nav to the far right */
+  margin-left: auto;
   display: flex;
-  gap: 15px; /* Add spacing between items */
+  gap: 15px;
 }
 .section {
   padding: 60px 20px;
@@ -215,7 +211,6 @@ body {
   background-color: #e65a50;
 }
 
-/* Footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -249,7 +244,7 @@ footer .social-links img:hover {
     z-index: 1000;
   }
 }
-/* Login Page Styles */
+
 .login-container {
   max-width: 400px;
   margin: 100px auto;
@@ -306,8 +301,6 @@ footer .social-links img:hover {
   text-decoration: underline;
 }
 
-/* Sign-Up Page Styles */
-/* Sign-Up Page Styles */
 .signup-container {
   max-width: 400px;
   margin: 100px auto;
@@ -363,7 +356,7 @@ footer .social-links img:hover {
 .signup-footer a:hover {
   text-decoration: underline;
 }
-/* Secondary Button (e.g., Continue as Guest) */
+
 .btn-secondary {
   background-color: #ccc;
   color: #333;
@@ -382,7 +375,6 @@ footer .social-links img:hover {
   background-color: #bbb;
 }
 
-/* Worker Page Styles */
 .worker-header {
   background-color: #333;
   color: #fff;
@@ -439,7 +431,7 @@ footer .social-links img:hover {
   margin-top: 10px;
   width: 100%;
 }
-/* Settings Page Styles */
+
 .settings-header {
   background-color: #333;
   color: #fff;
