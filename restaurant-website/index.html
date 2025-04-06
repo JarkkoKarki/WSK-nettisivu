@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/script.js" defer></script>
+    <title>Ravintola</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <body>
+    <header>
+      <div class="hero">
+        <div id="map"></div>
+        <!-- Map container -->
+        <div class="hero-content">
+          <h1>Welcome to Our Restaurant</h1>
+          <p>Experience the finest dining.</p>
+          <a href="#menu" class="btn-primary">Explore Menu</a>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul class="center-nav">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="right-nav">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="settings.html">User Settings</a></li>
+          <li><a href="worker.html">Worker Dashboard</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>
+          Experience the best dining with us. Our restaurant offers a variety of
+          dishes made from the freshest ingredients.
+        </p>
+      </section>
+
+      <section id="menu" class="section">
+        <h2>Our Menu</h2>
+        <p>Explore our delicious menu options.</p>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <h3>Grilled Salmon</h3>
+            <p>Freshly grilled salmon with a side of vegetables.</p>
+          </div>
+          <div class="menu-item">
+            <h3>Classic Burger</h3>
+            <p>Juicy beef patty with fresh toppings and fries.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <p>Check out our ambiance and food.</p>
+        <div class="gallery-grid">
+          <img src="images/dish1.jpg" alt="Dish 1" />
+          <img src="images/dish2.jpg" alt="Dish 2" />
+          <img src="images/interior.jpg" alt="Restaurant Interior" />
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for reservations or inquiries.</p>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Our Restaurant. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+          <a href="#"
+            ><img src="images/instagram-icon.jpg" alt="Instagram"
+          /></a>
+          <a href="#"><img src="images/twitter-icon.jpg" alt="Twitter" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
