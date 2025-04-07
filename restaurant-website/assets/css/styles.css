@@ -56,6 +56,7 @@ body {
   margin-bottom: 60px;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  animation: fadeInDown 2s;
 }
 
 .hero p {
@@ -124,8 +125,9 @@ body {
 }
 
 .right-nav {
-  margin-left: auto;
+  margin-left: auto !important;
   display: flex;
+  font-size: 1em;
   gap: 15px;
 }
 .section {
